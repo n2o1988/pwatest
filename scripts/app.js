@@ -173,7 +173,7 @@
   };
 
 
-  app.saveSelectedCities = () => {
+  app.saveSelectedCities = function() {
     localStorage.setItem('selectedCities', JSON.stringify(app.selectedCities));
   };
 
